@@ -11,7 +11,7 @@ const Contact = () => {
           <h2 id="contact__title">Get in Touch!</h2>
           <Link to="mailto:lewispearce1@hotmail.co.uk">
             <div className="contact__logolink">
-              <img src={email} className="contact__logo" />
+              <img src={email} className="contact__logo" alt="email" />
               <h3 className="contact__link">lewispearce1@hotmail.co.uk</h3>
             </div>
           </Link>
@@ -21,7 +21,7 @@ const Contact = () => {
             rel="noopener noreferrer"
           >
             <div className="contact__logolink">
-              <img src={insta} className="contact__logo" />
+              <img src={insta} className="contact__logo" alt="instagram" />
               <h3 className="contact__link">@lew.pearce.art</h3>
             </div>
           </Link>
@@ -31,7 +31,7 @@ const Contact = () => {
             rel="noopener noreferrer"
           >
             <div className="contact__logolink">
-              <img src={linkedin} className="contact__logo" />
+              <img src={linkedin} className="contact__logo" alt="linkedin" />
               <h3 className="contact__link">lew-pearce</h3>
             </div>
           </Link>
