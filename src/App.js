@@ -1,7 +1,5 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import { useState } from "react";
-// import tower from "./assets/long_tower.png";
 import Header from "./components/Header";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -22,4 +20,4 @@ function App() {
 
 export default App;
 
-// <img src={tower} className="tower" />
+

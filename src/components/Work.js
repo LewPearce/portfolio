@@ -11,37 +11,37 @@ const Work = () => {
       <div>
         <ul className="work__gallery">
           <li className="work__container">
-            <img className="work__imgs" src={`${everyman}`}></img>
+            <img className="work__imgs" src={everyman} alt='artwork'></img>
             <div className="work__overlay">
               <div className="work__text">See More</div>
             </div>
           </li>
           <li className="work__container">
-            <img className="work__imgs" src={pillar}></img>
+            <img className="work__imgs" src={pillar}alt='artwork'></img>
             <div className="work__overlay">
               <div className="work__text">See More</div>
             </div>
           </li>
           <li className="work__container">
-            <img className="work__imgs" src={strange}></img>
+            <img className="work__imgs" src={strange}alt='artwork'></img>
             <div className="work__overlay">
               <div className="work__text">See More</div>
             </div>
           </li>
           <li className="work__container">
-            <img className="work__imgs" src={balcony}></img>
+            <img className="work__imgs" src={balcony}alt='artwork'></img>
             <div className="work__overlay">
               <div className="work__text">See More</div>
             </div>
           </li>
           <li className="work__container">
-            <img className="work__imgs" src={computer}></img>
+            <img className="work__imgs" src={computer}alt='artwork'></img>
             <div className="work__overlay">
               <div className="work__text">See More</div>
             </div>
           </li>
           <li className="work__container">
-            <img className="work__imgs" src={greece}></img>
+            <img className="work__imgs" src={greece}alt='artwork'></img>
             <div className="work__overlay">
               <div className="work__text">See More</div>
             </div>
