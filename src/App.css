@@ -1,38 +1,250 @@
+@font-face {
+  font-family: "Dangrek";
+  src: local("Dangrek"), url(./assets/Dangrek-Regular.ttf) format("truetype");
+}
+
+:root {
+  --blue: #5da2f4;
+  --cream: #fff8f0;
+  --yellow: #ffba69;
+}
+
+* {
+  font-family: Dangrek;
+  background-color: var(--cream);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav__all {
+  background-color: var(--cream);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 20px;
+  justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav__words {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 5vw;
+}
+
+.nav__name {
+  font-size: 2.5em;
+  text-indent: 20px;
+  margin: 0px;
+  padding: 0px;
+  color: var(--blue);
+  letter-spacing: 20px;
+}
+
+#nav__titles {
+  display: flex;
+  position: absolute;
+  top: 50px;
+}
+
+.nav__title {
+  font-size: 1.25em;
+  letter-spacing: 4px;
+  margin-top: 0px;
+  margin: 0px 15px;
+  padding: 0px;
+  color: var(--blue);
+}
+
+.nav__options {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.nav__option {
+  font-size: 1.8em;
+  margin-top: 0px;
+  margin: 0px 4vw;
+  padding: 0px;
+  color: var(--blue);
+}
+
+.about__all {
+  text-align: left;
+  color: var(--yellow);
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+#about__me {
+  color: var(--blue);
+  font-size: 2.5em;
+}
+
+#about__para {
+  text-align: left;
+  font-size: 1.5em;
+}
+
+.highlight {
+  color: var(--blue);
+}
+
+#contact__title {
+  font-size: 3.5em;
+  color: var(--blue);
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.contact__logolink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin: fit-content;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.contact__logo {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.contact__link {
+  margin: 10px;
+  color: var(--yellow);
+  font-size: 2.5em;
+  letter-spacing: 5px;
+}
+
+.contact__link:hover {
+  color: var(--blue);
+}
+
+.work__gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: auto;
+  justify-content: center;
+  padding: 0px;
+}
+
+.work__container:hover .work__overlay {
+  opacity: 0.75;
+}
+
+.work__container {
+  position: relative;
+}
+
+.work__imgs {
+  display: block;
+  width: 27vw;
+  height: 27vw;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 2px 3px 5px 0px rgba(246, 177, 103, 0.207);
+}
+
+.work__overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 27vw;
+  width: 27vw;
+  margin: auto;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: var(--yellow);
+}
+
+.work__text {
   color: white;
+  background-color: var(--yellow);
+  font-size: 3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
+@media only screen and (max-width: 880px) {
+  .nav__all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .nav__words {
+    margin-left: 0px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .nav__name {
+    font-size: 3em;
+    letter-spacing: 10px;
+    text-indent: 0px;
   }
+  #nav__titles {
+    display: none;
+  }
+
+  .nav__option {
+    font-size: 1.5em;
+    margin: 0px 35px;
+  }
+
+  .nav__options {
+    display: flex;
+    position: absolute;
+    top: 50px;
+  }
+
+  /* 
+  .work__gallery {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 10px;
+  }
+
+  .work__imgs {
+    width: 60vw;
+    height: 6vw;
+    margin: 0px;
+  } */
 }
