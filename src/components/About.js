@@ -3,7 +3,7 @@ import plant from "../assets/plant.png";
 const About = () => {
   return (
     <>
-      <img id="plant" src={plant}></img>
+      <img id="plant" src={plant} alt="plant"></img>
       <div className="about__all">
         <div>
           <h2 id="about__me">About me</h2>
