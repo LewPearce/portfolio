@@ -3,7 +3,6 @@ import { useLocation } from "react-router-dom";
 
 const Header = () => {
   const path = useLocation().pathname;
-  console.log(path);
 
   return (
     <>
@@ -20,7 +19,7 @@ const Header = () => {
           <Link to={"/work"}>
             <h3
               className="nav__option"
-              style={path === "/work" ? { color: "var(--yellow)" } : null}
+              style={path === "/work" ? { color: "var(--green)" } : null}
             >
               Work
             </h3>
@@ -28,7 +27,7 @@ const Header = () => {
           <Link to={"/about"}>
             <h3
               className="nav__option"
-              style={path === "/about" ? { color: "var(--yellow)" } : null}
+              style={path === "/about" ? { color: "var(--green)" } : null}
             >
               About
             </h3>
@@ -36,7 +35,7 @@ const Header = () => {
           <Link to={"/contact"}>
             <h3
               className="nav__option"
-              style={path === "/contact" ? { color: "var(--yellow)" } : null}
+              style={path === "/contact" ? { color: "var(--green)" } : null}
             >
               Contact
             </h3>

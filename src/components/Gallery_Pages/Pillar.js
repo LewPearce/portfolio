@@ -1,5 +1,5 @@
-import real from "../../assets/singles/pillar_real.png";
-import clay from "../../assets/singles/pillar_clay.png";
+import real from "../../assets/singles/pillar_real.jpg";
+import clay from "../../assets/singles/pillar_clay.jpg";
 import video from "../../assets/singles/pillar_video.mp4";
 
 const Pillar = () => {
@@ -17,7 +17,16 @@ const Pillar = () => {
           loop="true"
         ></video>
         <div className="single__vert__container">
-          <p className="single__para">Personal work.</p>
+          <div className="single__vert__container">
+            <h2 className="single__title" style={{ color: "#FF9759" }}>
+              Pillar Sitter
+            </h2>
+            <p className="single__para">
+              This personal project was my a my first attempt at adding a
+              character to one of my animations, it was great to get some
+              experience with character modelling and rigging.
+            </p>
+          </div>
           <div className="single__horz__container">
             <img className="single__imgs__small" src={clay} alt="artwork"></img>
             {/* this third image will be the one in the theatre but Ineed a better quality

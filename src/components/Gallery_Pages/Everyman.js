@@ -1,5 +1,5 @@
-import real from "../../assets/singles/everyman_real.png";
-import clay from "../../assets/singles/everyman_clay.png";
+import real from "../../assets/singles/everyman_real.jpg";
+import clay from "../../assets/singles/everyman_clay.jpg";
 
 const Everyman = () => {
   return (
@@ -7,10 +7,16 @@ const Everyman = () => {
       <div className="single__horz__container">
         <img className="single__imgs" src={real} alt="artwork"></img>
         <div className="single__vert__container">
-          <p className="single__para">
-            Illustration comissioned by Everyman Cinemas of their Manchester
-            venue to be featured in their October/November 2022 magazine.
-          </p>
+          <div className="single__vert__container">
+            <h2 className="single__title" style={{ color: "#F84D74" }}>
+              Everyman Cinemas
+            </h2>
+            <p className="single__para">
+              A commission for Everyman Cinemas which of their Manchester venue,
+              this colourful design was featured as the centrefold of their
+              bi-monthly magazine.
+            </p>
+          </div>
           <div className="single__horz__container">
             <img className="single__imgs__small" src={clay} alt="artwork"></img>
             {/* this third image will be the one in the theatre but Ineed a better quality
