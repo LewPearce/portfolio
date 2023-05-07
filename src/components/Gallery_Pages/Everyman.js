@@ -1,5 +1,4 @@
-import real from "../../assets/singles/everyman_real.jpg";
-import clay from "../../assets/singles/everyman_clay.jpg";
+import real from "../../assets/singles/everyman_real-min.png";
 
 const Everyman = () => {
   return (
@@ -18,7 +17,11 @@ const Everyman = () => {
             </p>
           </div>
           <div className="single__horz__container">
-            <img className="single__imgs__small" src={clay} alt="artwork"></img>
+            <img
+              className="single__imgs__small"
+              src="https://i.ibb.co/K26sCtZ/everyman-clay.jpg"
+              alt="artwork"
+            ></img>
             {/* this third image will be the one in the theatre but Ineed a better quality
       photo */}
             <img className="single__imgs__small" src={real} alt="artwork"></img>

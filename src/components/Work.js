@@ -1,10 +1,4 @@
 import { Link } from "react-router-dom";
-import everyman from "../assets/gallery/everyman_square.jpg";
-import computer from "../assets/gallery/computer_square.jpg";
-import greece from "../assets/gallery/greece_square.jpg";
-import pillar from "../assets/gallery/pillar_square.jpg";
-import strange from "../assets/gallery/strange_square.jpg";
-import balcony from "../assets/gallery/balcony_square.jpg";
 
 const Work = () => {
   return (
@@ -12,7 +6,23 @@ const Work = () => {
       <div>
         <ul className="work__gallery">
           <li className="work__container">
-            <img className="work__imgs" src={everyman} alt="artwork"></img>
+            <img
+              className="work__imgs"
+              src="https://i.ibb.co/74wpHK7/novella-square.png"
+              alt="artwork"
+            ></img>
+            <Link to="/work/novella">
+              <div className="work__overlay">
+                <div className="work__text">See More</div>
+              </div>
+            </Link>
+          </li>
+          <li className="work__container">
+            <img
+              className="work__imgs"
+              src="https://i.ibb.co/XsVFcHN/everyman-square.png"
+              alt="artwork"
+            ></img>
             <Link to="/work/everyman">
               <div className="work__overlay">
                 <div className="work__text">See More</div>
@@ -20,7 +30,11 @@ const Work = () => {
             </Link>
           </li>
           <li className="work__container">
-            <img className="work__imgs" src={pillar} alt="artwork"></img>
+            <img
+              className="work__imgs"
+              src="https://i.ibb.co/ZVskJvg/pillar-square.png"
+              alt="artwork"
+            ></img>
             <Link to="/work/pillar">
               <div className="work__overlay">
                 <div className="work__text">See More</div>
@@ -28,7 +42,11 @@ const Work = () => {
             </Link>
           </li>
           <li className="work__container">
-            <img className="work__imgs" src={strange} alt="artwork"></img>
+            <img
+              className="work__imgs"
+              src="https://i.ibb.co/7GDbTJS/strange-square.png"
+              alt="artwork"
+            ></img>
             <Link to="/work/strange">
               <div className="work__overlay">
                 <div className="work__text">See More</div>
@@ -36,22 +54,40 @@ const Work = () => {
             </Link>
           </li>
           <li className="work__container">
-            <img className="work__imgs" src={balcony} alt="artwork"></img>
-            <div className="work__overlay">
-              <div className="work__text">See More</div>
-            </div>
+            <img
+              className="work__imgs"
+              src="https://i.ibb.co/5sYQ57z/balcony-square.png"
+              alt="artwork"
+            ></img>
+            <Link to="/work/balconies">
+              <div className="work__overlay">
+                <div className="work__text">See More</div>
+              </div>
+            </Link>
           </li>
           <li className="work__container">
-            <img className="work__imgs" src={computer} alt="artwork"></img>
-            <div className="work__overlay">
-              <div className="work__text">See More</div>
-            </div>
+            <img
+              className="work__imgs"
+              src="https://i.ibb.co/5RZH8mK/computer-square.png"
+              alt="artwork"
+            ></img>
+            <Link to="/work/computer">
+              <div className="work__overlay">
+                <div className="work__text">See More</div>
+              </div>
+            </Link>
           </li>
           <li className="work__container">
-            <img className="work__imgs" src={greece} alt="artwork"></img>
-            <div className="work__overlay">
-              <div className="work__text">See More</div>
-            </div>
+            <img
+              className="work__imgs"
+              src="https://i.ibb.co/ZcPQ6ZM/greece-real.jpg"
+              alt="artwork"
+            ></img>
+            <Link to="/work/holiday">
+              <div className="work__overlay">
+                <div className="work__text">See More</div>
+              </div>
+            </Link>
           </li>
         </ul>
       </div>

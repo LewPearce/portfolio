@@ -1,6 +1,5 @@
-import real from "../../assets/singles/strange_square.jpg";
-import clay from "../../assets/singles/strange_clay.jpg";
 import video from "../../assets/singles/strange_video.mp4";
+import real from "../../assets/singles/strange_real-min.png";
 
 const Strange = () => {
   return (
@@ -8,7 +7,11 @@ const Strange = () => {
       <div className="single__horz__container">
         <div className="single__img__container">
           <img className="single__imgs__initial" src={real} alt="artwork"></img>
-          <img className="single__imgs__overlay" src={clay} alt="artwork"></img>
+          <img
+            className="single__imgs__overlay"
+            src="https://i.ibb.co/tJkjC6h/strange-clay.jpg"
+            alt="artwork"
+          ></img>
         </div>
         <div className="single__vert__container">
           <div className="single__vert__container">
@@ -28,9 +31,7 @@ const Strange = () => {
             src={video}
             type="video/mp4"
             alt="artwork"
-            autoplay="autoplay"
-            muted
-            defaultmuted
+            autoplay="autoPlay"
             loop="true"
           ></video>
         </div>

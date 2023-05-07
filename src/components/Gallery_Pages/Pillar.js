@@ -1,5 +1,3 @@
-import real from "../../assets/singles/pillar_real.jpg";
-import clay from "../../assets/singles/pillar_clay.jpg";
 import video from "../../assets/singles/pillar_video.mp4";
 
 const Pillar = () => {
@@ -11,10 +9,9 @@ const Pillar = () => {
           src={video}
           type="video/mp4"
           alt="artwork"
-          autoplay="autoplay"
+          autoPlay
           muted
-          defaultmuted
-          loop="true"
+          loop={true}
         ></video>
         <div className="single__vert__container">
           <div className="single__vert__container">
@@ -28,10 +25,18 @@ const Pillar = () => {
             </p>
           </div>
           <div className="single__horz__container">
-            <img className="single__imgs__small" src={clay} alt="artwork"></img>
+            <img
+              className="single__imgs__small"
+              src="https://i.ibb.co/mCYTnF0/pillar-clay.jpg"
+              alt="artwork"
+            ></img>
             {/* this third image will be the one in the theatre but Ineed a better quality
       photo */}
-            <img className="single__imgs__small" src={real} alt="artwork"></img>
+            <img
+              className="single__imgs__small"
+              src="https://i.ibb.co/TmJHQnp/pillar-real.jpg"
+              alt="artwork"
+            ></img>
           </div>
         </div>
       </div>
