@@ -7,7 +7,7 @@ const Novella = () => {
     <>
       <div className="single__vert__container__centered">
         <img className="single__imgs__banner" src={banner} alt="artwork"></img>
-        <div className="single__horz__container">
+        <div className="single__horz__container__novella">
           <div className="single__img__container__portrait">
             <img
               className="single__imgs__initial"

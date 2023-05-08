@@ -16,7 +16,7 @@ const Everyman = () => {
               bi-monthly magazine.
             </p>
           </div>
-          <div className="single__horz__container">
+          <div className="single__horz__container__small">
             <img
               className="single__imgs__small"
               src="https://i.ibb.co/K26sCtZ/everyman-clay.jpg"

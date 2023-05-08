@@ -24,7 +24,7 @@ const Pillar = () => {
               experience with character modelling and rigging.
             </p>
           </div>
-          <div className="single__horz__container">
+          <div className="single__horz__container__small">
             <img
               className="single__imgs__small"
               src="https://i.ibb.co/mCYTnF0/pillar-clay.jpg"

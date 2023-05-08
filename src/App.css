@@ -304,6 +304,17 @@ body::-webkit-scrollbar {
   justify-content: center;
 }
 
+.single__horz__container__small {
+  margin: 0px;
+  margin-top: 20px;
+  padding: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+
 .single__spacer {
   background-color: red;
   width: 40px;
@@ -382,6 +393,23 @@ body::-webkit-scrollbar {
   box-shadow: 4px 4px 5px 0px rgba(246, 177, 103, 0.207);
 }
 
+.footer {
+  height: 40px;
+  width: 100vw;
+}
+
+.single__horz__container__novella {
+  margin: 0px;
+  margin-top: 20px;
+  padding: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  width: 76vw;
+}
+
 @media only screen and (max-width: 905px) {
   .nav__all {
     display: flex;
@@ -445,6 +473,7 @@ body::-webkit-scrollbar {
 
   .single__imgs {
     width: 80vw;
+    height: auto;
   }
 
   .single__horz__container {
@@ -455,9 +484,37 @@ body::-webkit-scrollbar {
   .single__para {
     padding-top: 2vh;
     padding-bottom: 2vh;
+    font-size: 0.8em;
   }
 
   .single__imgs__small {
+    width: 40vw;
+  }
+
+  .single__img__container {
+    position: relative;
     width: 80vw;
+    height: 80vw;
+    margin-right: 0vw;
+  }
+
+  .single__imgs__small__square {
+    width: 80vw;
+    box-shadow: 4px 4px 5px 0px rgba(246, 177, 103, 0.207);
+  }
+
+  .single__img__container__portrait {
+    position: relative;
+    width: 80vw;
+    height: 100vw;
+    margin-right: 0vw;
+  }
+
+  .single__vert__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 50vw;
   }
 }

@@ -11,6 +11,7 @@ import Greece from "./components/Gallery_Pages/Greece";
 import Computer from "./components/Gallery_Pages/Computer";
 import Balconies from "./components/Gallery_Pages/Balconies";
 import Novella from "./components/Gallery_Pages/Novella";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/work/balconies" element={<Balconies />}></Route>
         <Route path="/work/novella" element={<Novella />}></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }
