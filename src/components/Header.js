@@ -7,14 +7,16 @@ const Header = () => {
   return (
     <>
       <div className="nav__all">
-        <div className="nav__words">
-          <h2 className="nav__name">Lew Pearce</h2>
-          <div id="nav__titles">
-            <h3 className="nav__title">Illustrator</h3>
-            <h3 className="nav__title">Animator</h3>
-            <h3 className="nav__title">Designer</h3>
+        <Link to={"/work"}>
+          <div className="nav__words">
+            <h2 className="nav__name">Lew Pearce</h2>
+            <div id="nav__titles">
+              <h3 className="nav__title">Illustrator</h3>
+              <h3 className="nav__title">Animator</h3>
+              <h3 className="nav__title">Designer</h3>
+            </div>
           </div>
-        </div>
+        </Link>
         <div className="nav__options">
           <Link to={"/work"}>
             <h3

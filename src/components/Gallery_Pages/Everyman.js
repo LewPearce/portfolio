@@ -24,6 +24,7 @@ const Everyman = () => {
             ></img>
             {/* this third image will be the one in the theatre but Ineed a better quality
       photo */}
+            <div className="spacer__2"></div>
             <img className="single__imgs__small" src={real} alt="artwork"></img>
           </div>
         </div>

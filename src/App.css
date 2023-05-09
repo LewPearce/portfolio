@@ -250,7 +250,7 @@ body::-webkit-scrollbar {
 
 .single__img__container__portrait {
   position: relative;
-  width: 40vw;
+  width: 43vw;
   height: 50vw;
   margin-right: 4vw;
 }
@@ -262,7 +262,6 @@ body::-webkit-scrollbar {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
   transition: opacity 0.3s ease-in-out;
 }
 
@@ -386,7 +385,7 @@ body::-webkit-scrollbar {
 }
 
 .single__imgs__banner {
-  width: 76vw;
+  width: 80vw;
   height: auto;
   margin: 0px;
   margin-top: 20px;
@@ -394,8 +393,8 @@ body::-webkit-scrollbar {
 }
 
 .footer {
-  height: 40px;
-  width: 100vw;
+  height: 200px;
+  width: 100px;
 }
 
 .single__horz__container__novella {
@@ -407,7 +406,15 @@ body::-webkit-scrollbar {
   flex-direction: row;
   align-items: flex-end;
   justify-content: center;
-  width: 76vw;
+  width: 80vw;
+}
+
+.single__vert__container__portrait {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 50vw;
 }
 
 @media only screen and (max-width: 905px) {
@@ -474,21 +481,29 @@ body::-webkit-scrollbar {
   .single__imgs {
     width: 80vw;
     height: auto;
+    margin-right: 0px;
   }
 
   .single__horz__container {
     flex-direction: column;
     align-items: center;
+    justify-items: center;
   }
 
   .single__para {
     padding-top: 2vh;
     padding-bottom: 2vh;
     font-size: 0.8em;
+    width: 80vw;
   }
 
   .single__imgs__small {
-    width: 40vw;
+    width: 39vw;
+    margin-right: 0px;
+  }
+
+  .spacer__2 {
+    width: 2vw;
   }
 
   .single__img__container {
@@ -501,6 +516,7 @@ body::-webkit-scrollbar {
   .single__imgs__small__square {
     width: 80vw;
     box-shadow: 4px 4px 5px 0px rgba(246, 177, 103, 0.207);
+    margin-bottom: 4vh;
   }
 
   .single__img__container__portrait {
@@ -515,6 +531,18 @@ body::-webkit-scrollbar {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    width: 80vw;
+  }
+
+  .single__vert__container__portrait {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 50vw;
+  }
+
+  .single__title {
+    padding-top: 2vh;
   }
 }

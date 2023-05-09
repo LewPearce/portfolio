@@ -7,14 +7,7 @@ const Novella = () => {
     <>
       <div className="single__vert__container__centered">
         <img className="single__imgs__banner" src={banner} alt="artwork"></img>
-        <div className="single__horz__container__novella">
-          <div className="single__img__container__portrait">
-            <img
-              className="single__imgs__initial"
-              src={poster}
-              alt="artwork"
-            ></img>
-          </div>
+        <div className="single__horz__container">
           <div className="single__vert__container">
             <div className="single__vert__container">
               <h2 className="single__title" style={{ color: "#FF9993" }}>
@@ -28,6 +21,7 @@ const Novella = () => {
                 stroke of the brush, and the results speak for themselves.
               </p>
             </div>
+            <img className="single__imgs" src={poster} alt="artwork"></img>
             <div className="single__horz__container">
               <img
                 className="single__imgs__small__square"

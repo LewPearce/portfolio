@@ -30,8 +30,7 @@ const Pillar = () => {
               src="https://i.ibb.co/mCYTnF0/pillar-clay.jpg"
               alt="artwork"
             ></img>
-            {/* this third image will be the one in the theatre but Ineed a better quality
-      photo */}
+            <div className="spacer__2"></div>
             <img
               className="single__imgs__small"
               src="https://i.ibb.co/TmJHQnp/pillar-real.jpg"
