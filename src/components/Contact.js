@@ -8,11 +8,12 @@ const Contact = () => {
     <>
       <div className="about__all">
         <div>
-          <h2 id="contact__title">
+          <h2 id="contact__title">Get in Touch!</h2>
+          <p id="contact__para">
             I’m always looking for new and exciting projects to work on, if you
             have something you’d like to collaborate on or have a commission me
             for then please get in touch!
-          </h2>
+          </p>
           <Link to="mailto:lewispearce1@hotmail.co.uk">
             <div className="contact__logolink">
               <img src={email} className="contact__logo" alt="email" />
