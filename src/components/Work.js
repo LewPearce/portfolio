@@ -13,7 +13,7 @@ const Work = () => {
             ></img>
             <Link to="/work/novella">
               <div className="work__overlay">
-                <div className="work__text">See More</div>
+                <div className="work__text">Novella Film Festival</div>
               </div>
             </Link>
           </li>
@@ -25,7 +25,7 @@ const Work = () => {
             ></img>
             <Link to="/work/everyman">
               <div className="work__overlay">
-                <div className="work__text">See More</div>
+                <div className="work__text">Everyman Cinemas</div>
               </div>
             </Link>
           </li>
@@ -37,7 +37,7 @@ const Work = () => {
             ></img>
             <Link to="/work/pillar">
               <div className="work__overlay">
-                <div className="work__text">See More</div>
+                <div className="work__text">Personal</div>
               </div>
             </Link>
           </li>
@@ -49,7 +49,7 @@ const Work = () => {
             ></img>
             <Link to="/work/strange">
               <div className="work__overlay">
-                <div className="work__text">See More</div>
+                <div className="work__text">Personal</div>
               </div>
             </Link>
           </li>
@@ -61,7 +61,7 @@ const Work = () => {
             ></img>
             <Link to="/work/balconies">
               <div className="work__overlay">
-                <div className="work__text">See More</div>
+                <div className="work__text">Personal</div>
               </div>
             </Link>
           </li>
@@ -73,7 +73,7 @@ const Work = () => {
             ></img>
             <Link to="/work/computer">
               <div className="work__overlay">
-                <div className="work__text">See More</div>
+                <div className="work__text">Personal</div>
               </div>
             </Link>
           </li>
@@ -85,7 +85,7 @@ const Work = () => {
             ></img>
             <Link to="/work/holiday">
               <div className="work__overlay">
-                <div className="work__text">See More</div>
+                <div className="work__text">Personal</div>
               </div>
             </Link>
           </li>

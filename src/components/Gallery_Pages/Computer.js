@@ -1,7 +1,13 @@
 import video from "../../assets/singles/computer_video.mp4";
 import clay from "../../assets/singles/Computer Viewport-min.png";
+import { useEffect } from "react";
 
 const Computer = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <div className="single__horz__container">

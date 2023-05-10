@@ -1,6 +1,10 @@
 import real from "../../assets/singles/everyman_real-min.png";
+import { useEffect } from "react";
 
 const Everyman = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="single__horz__container">

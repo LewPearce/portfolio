@@ -1,24 +1,58 @@
-import plant from "../assets/plant.png";
-
 const About = () => {
   return (
     <>
-      <img id="plant" src={plant} alt="plant"></img>
-      <div className="about__all">
-        <div>
-          <h2 id="about__me">About me</h2>
-          <p id="about__para">
-            Hi! I’m Lew, an illustrator, 3D generalist and occasional animator
-            based in Manchester. I use a 3D software to create colourful
-            illustrative pieces. I have over 7 years of experience using Blender
-            and through this have a great knowledge of modeling, lighting,
-            materials, rigging and composition. I’m always looking for new and
-            exciting projects to work on, if you have something you’d like to
-            collaborate on or have a commission me for then email me at{" "}
-            <span className="highlight">lewispearce1@hotmail.co.uk</span>.
-          </p>
+      <div className="single__horz__container__about">
+        <img
+          className="single__imgs"
+          src="https://i.ibb.co/mCYTnF0/pillar-clay.jpg"
+          alt="artwork"
+          style={{ marginRight: "50px" }}
+        ></img>
+        <div className="single__vert__container">
+          <div className="single__vert__container">
+            <h2
+              className="single__title"
+              style={{ color: "#52d29c", fontSize: "2.25em" }}
+            >
+              Who am I?
+            </h2>
+            <p className="single__para" style={{ fontSize: "1.5em" }}>
+              I am an illustrator, 3D artist and occasional animator based in
+              Manchester. I use CGI software to create colourful illustrations
+              and animations and try to tell a story with every piece.
+            </p>
+            <p
+              className="single__para"
+              style={{ fontSize: "1.5em", marginTop: "30px" }}
+            >
+              With over 7 years of experience creating 3D artwork, I have
+              experience working with clients to create fun and eyecatching
+              designs and am excited to continue pushing my creative boundaries,
+              while exploring new possibilities in the field of illustration.
+            </p>
+          </div>
         </div>
       </div>
+
+      {/* <div className="about__all">
+        <div className="single__horz__container">
+          <div className="photo"></div>
+          <div className="single__vert__container">
+            <h2 id="about__me">About me</h2>
+            <p id="about__para">
+              I am an illustrator, 3D artist and occasional animator based in
+              Manchester. I use CGI software to create colourful illustrations
+              and animations and try to tell a story with every piece.
+            </p>
+            <p id="about__para">
+              With over 7 years of experience creating 3D artwork, I have
+              experience working with clients to create fun and eyecatching
+              designs and am excited to continue pushing my creative boundaries,
+              while exploring new possibilities in the field of illustration.
+            </p>
+          </div>
+        </div>
+      </div> */}
     </>
   );
 };

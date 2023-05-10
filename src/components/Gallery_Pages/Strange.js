@@ -1,7 +1,12 @@
 import video from "../../assets/singles/strange_video.mp4";
 import real from "../../assets/singles/strange_real-min.png";
+import { useEffect } from "react";
 
 const Strange = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <div className="single__horz__container">

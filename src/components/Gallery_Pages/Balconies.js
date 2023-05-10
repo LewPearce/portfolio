@@ -1,8 +1,13 @@
 import real from "../../assets/singles/balcony_real-min.png";
 import clay from "../../assets/singles/balcony_clay-min.png";
 import video from "../../assets/singles/balcony_video.mp4";
+import { useEffect } from "react";
 
 const Balconies = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <div className="single__horz__container">

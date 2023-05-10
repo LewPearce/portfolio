@@ -1,6 +1,11 @@
 import video from "../../assets/singles/pillar_video.mp4";
+import { useEffect } from "react";
 
 const Pillar = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <div className="single__horz__container">
