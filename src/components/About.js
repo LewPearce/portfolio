@@ -4,9 +4,9 @@ const About = () => {
       <div className="single__horz__container__about">
         <img
           className="single__imgs"
-          src="https://i.ibb.co/mCYTnF0/pillar-clay.jpg"
+          src="https://i.ibb.co/TmJHQnp/pillar-real.jpg"
           alt="artwork"
-          style={{ marginRight: "50px" }}
+          
         ></img>
         <div className="single__vert__container">
           <div className="single__vert__container">

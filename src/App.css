@@ -11,7 +11,7 @@
 
 :root {
   --blue: #5da2f4;
-  --cream: #fbf7f1;
+  --cream: #ffffff;
   --yellow: #ffba69;
   --grey: #4f4f4f;
   --green: #52d29c;
@@ -336,7 +336,7 @@ body::-webkit-scrollbar {
 
 .single__title {
   padding-bottom: 1vw;
-  text-align: center;
+  text-align: left;
   color: var(--green);
   font-size: 1.9em;
   width: auto;
@@ -594,6 +594,7 @@ body::-webkit-scrollbar {
 
   .single__title {
     padding-top: 2vh;
+    text-align: center;
   }
 
   .single__imgs__novella {
