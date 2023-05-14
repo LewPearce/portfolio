@@ -10,11 +10,11 @@
 }
 
 :root {
-  --blue: #5da2f4;
-  --cream: #ffffff;
+  --blue: #4395fa;
+  --cream: #f8f2ec;
   --yellow: #ffba69;
   --grey: #4f4f4f;
-  --green: #52d29c;
+  --green: #f26876;
   --white: #ffffff;
 }
 
@@ -29,6 +29,7 @@ a:link {
 
 a:visited {
   text-decoration: none;
+  color: var(--green);
 }
 
 a:hover {
@@ -152,11 +153,16 @@ body::-webkit-scrollbar {
   margin-right: 10px;
 }
 
+.contact__phone {
+  width: 500px;
+  margin-right: 10px;
+}
+
 .contact__link {
   margin: 10px;
   color: var(--green);
   font-size: 2.5em;
-  letter-spacing: 5px;
+  letter-spacing: 0.3vw;
 }
 
 .contact__link:hover {
@@ -341,22 +347,6 @@ body::-webkit-scrollbar {
   font-size: 1.9em;
   width: auto;
   margin: 0px;
-}
-
-.card {
-  width: 47px;
-  margin: 30px;
-  background-color: var(--cream);
-  box-shadow: 5px 5px 5px 0px rgba(246, 177, 103, 0.499);
-  position: absolute;
-}
-.card #img-top {
-  width: 47px;
-  display: none;
-}
-
-.card:hover .img-top {
-  display: inline;
 }
 
 .single__para {

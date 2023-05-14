@@ -2,11 +2,13 @@ import { Link } from "react-router-dom";
 import insta from "../assets/insta.png";
 import linkedin from "../assets/linkedin.png";
 import email from "../assets/email.png";
+import phone from "../assets/phone.png";
 
 const Contact = () => {
   return (
     <>
       <div className="about__all">
+        <img src={phone} className="contact__phone" alt="phone" />
         <h2 id="contact__title">Get in Touch!</h2>
         <p id="contact__para">
           I’m always looking for new and exciting projects to work on, if you
