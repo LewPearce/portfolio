@@ -39,7 +39,7 @@ const About = () => {
               afraid to{" "}
               <span
                 className="single__para"
-                style={{ fontSize: "1.1em", marginTop: "0px" }}
+                style={{ fontSize: "1.1em", paddingTop: "0px" }}
               >
                 <Link to="/contact"> get in touch!</Link>
               </span>
