@@ -16,7 +16,7 @@ const About = () => {
           <div className="single__vert__container">
             <h2
               className="single__title"
-              style={{ color: "#f26876", fontSize: "5vw" }}
+              style={{ color: "#f26876", fontSize: "3em" }}
             >
               Hey There!
             </h2>
