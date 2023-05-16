@@ -5,7 +5,7 @@ import email from "../assets/email.png";
 
 const Contact = () => {
   return (
-    <>
+    <div className="page__fade">
       <div className="about__all">
         <h2 id="contact__title">Get in Touch!</h2>
         <p id="contact__para">
@@ -13,10 +13,10 @@ const Contact = () => {
           have something you’d like to collaborate on or have a commission me
           for then please get in touch!
         </p>
-        <Link to="mailto:lewispearce1@hotmail.co.uk">
+        <Link to="mailto:	lewpearceart@gmail.com">
           <div className="contact__logolink">
             <img src={email} className="contact__logo" alt="email" />
-            <h3 className="contact__link">lewispearce1@hotmail.co.uk</h3>
+            <h3 className="contact__link">lewpearceart@gmail.com</h3>
           </div>
         </Link>
         <Link
@@ -40,7 +40,7 @@ const Contact = () => {
           </div>
         </Link>
       </div>
-    </>
+    </div>
   );
 };
 

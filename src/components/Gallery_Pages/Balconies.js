@@ -9,7 +9,7 @@ const Balconies = () => {
   }, []);
 
   return (
-    <>
+    <div className="page__fade">
       <div className="single__horz__container">
         <div className="single__img__container__portrait">
           <img className="single__imgs__initial" src={real} alt="artwork"></img>
@@ -21,7 +21,10 @@ const Balconies = () => {
               Barcelona Balconies
             </h2>
             <p className="single__para">
-            My art is not just a product of my skills and techniques, but also of my life experiences and personal vision. Each piece I create is a reflection of my unique perspective and my deep connection to the world. I pour my heart and soul into every stroke of the brush, and the results speak for themselves.
+              The balconies, shutters and plants were all created in a way which
+              makes it easy for me to edit and add them. The plants can be made
+              by drawing a simple line, and my code generates the plant around
+              that line, this allows for more versatile designs.
             </p>
           </div>
           <div className="single__horz__container">
@@ -37,7 +40,7 @@ const Balconies = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

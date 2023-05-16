@@ -8,7 +8,7 @@ const Strange = () => {
   }, []);
 
   return (
-    <>
+    <div className="page__fade">
       <div className="single__horz__container">
         <div className="single__img__container">
           <img className="single__imgs__initial" src={real} alt="artwork"></img>
@@ -20,15 +20,12 @@ const Strange = () => {
         </div>
         <div className="single__vert__container">
           <div className="single__vert__container">
-            <h2 className="single__title">Sanctum Santorum</h2>
+            <h2 className="single__title" style={{ color: "#52D29C" }}>
+              Sanctum Santorum
+            </h2>
             <p className="single__para">
-              I had a much bigger task ahead of me when starting this project
-              than I anticipated. Despite the sheer size of Marvel’s filmography
-              there is a surprising lack of screen time given to Dr Strange’s
-              New York Sanctum. My reference for this project consisted of
-              screenshots from multiple movies as well as some concept art from
-              marvel studios. This was a really fun project to work on as it
-              tested my hard surface modeling skills.
+              Using various screenshots from films and scraps of concept art I
+              create my reimagination of Dr Strange's New York Sanctum.
             </p>
           </div>
           <video
@@ -41,7 +38,7 @@ const Strange = () => {
           ></video>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

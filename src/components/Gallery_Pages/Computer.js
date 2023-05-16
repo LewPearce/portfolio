@@ -3,13 +3,12 @@ import clay from "../../assets/singles/Computer Viewport-min.png";
 import { useEffect } from "react";
 
 const Computer = () => {
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   return (
-    <>
+    <div className="page__fade">
       <div className="single__horz__container">
         <div className="single__img__container">
           <video
@@ -27,11 +26,9 @@ const Computer = () => {
               Computer Love
             </h2>
             <p className="single__para">
-              My art is not just a product of my skills and techniques, but also
-              of my life experiences and personal vision. Each piece I create is
-              a reflection of my unique perspective and my deep connection to
-              the world. I pour my heart and soul into every stroke of the
-              brush, and the results speak for themselves.
+              Not only was this scene made in Blender but even the graphics show
+              on the screen are a 3D animation whichI created and then 'played'
+              on the computer.
             </p>
           </div>
           <img
@@ -41,7 +38,7 @@ const Computer = () => {
           ></img>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -6,7 +6,7 @@ const Everyman = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <>
+    <div className="page__fade">
       <div className="single__horz__container">
         <img className="single__imgs" src={real} alt="artwork"></img>
         <div className="single__vert__container">
@@ -15,9 +15,9 @@ const Everyman = () => {
               Everyman Cinemas
             </h2>
             <p className="single__para">
-              A commission for Everyman Cinemas which of their Manchester venue,
+              A commission for Everyman Cinemas of their Manchester venue,
               this colourful design was featured as the centrefold of their
-              bi-monthly magazine.
+              bi-monthly magazine across all their venues.
             </p>
           </div>
           <div className="single__horz__container__small">
@@ -33,7 +33,7 @@ const Everyman = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

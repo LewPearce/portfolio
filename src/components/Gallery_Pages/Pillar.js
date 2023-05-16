@@ -7,7 +7,7 @@ const Pillar = () => {
   }, []);
 
   return (
-    <>
+    <div className="page__fade">
       <div className="single__horz__container">
         <video
           className="single__imgs"
@@ -24,7 +24,7 @@ const Pillar = () => {
               Pillar Sitter
             </h2>
             <p className="single__para">
-              This personal project was my a my first attempt at adding a
+              This personal project was my first attempt at adding a
               character to one of my animations, it was great to get some
               experience with character modelling and rigging.
             </p>
@@ -44,7 +44,7 @@ const Pillar = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -8,7 +8,7 @@ const Novella = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <>
+    <div className="page__fade">
       <div className="single__vert__container__centered">
         <img className="single__imgs__banner" src={banner} alt="artwork"></img>
         <div className="single__horz__container">
@@ -36,11 +36,11 @@ const Novella = () => {
                   Novella Film Festival
                 </h2>
                 <p className="single__para">
-                  My art is not just a product of my skills and techniques, but
-                  also of my life experiences and personal vision. Each piece I
-                  create is a reflection of my unique perspective and my deep
-                  connection to the world. I pour my heart and soul into every
-                  stroke of the brush, and the results speak for themselves.
+                  I was asked by Novella to produce branding material to be used
+                  across their social media as the submission window for the
+                  festivals 2023 run began. Later this year I will be working on
+                  another set of illustrations for printed material at the
+                  event.
                 </p>
               </div>
               <div className="single__horz__container">
@@ -55,7 +55,7 @@ const Novella = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Fredoka";
-  src: local("Fredoka"), url(./assets/Fredoka-Bold.ttf) format("truetype");
+  font-family: "Koulen";
+  src: local("Koulen"), url(./assets/Koulen-Regular.ttf) format("truetype");
 }
 
 @font-face {
@@ -19,7 +19,7 @@
 }
 
 * {
-  font-family: Fredoka;
+  font-family: Koulen;
   background-color: var(--white);
 }
 
@@ -133,7 +133,7 @@ body::-webkit-scrollbar {
 }
 
 #contact__para {
-  font-size: 3em;
+  font-size: 2.5vw;
   color: var(--grey);
   text-align: left;
   font-family: commissioner;
@@ -296,7 +296,7 @@ body::-webkit-scrollbar {
 .single__para__square {
   text-align: center;
   color: var(--blue);
-  font-size: 1.3em;
+  font-size: 1.5vw;
   width: 80vw;
   height: fit-content;
   padding-top: 10vh;
@@ -313,6 +313,18 @@ body::-webkit-scrollbar {
   flex-direction: row;
   align-items: flex-end;
   justify-content: center;
+}
+
+.single__horz__container__socials {
+  width: 100%;
+  margin: 0px;
+  margin-top: 50px;
+  padding: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-evenly;
 }
 
 .single__horz__container__small {
@@ -344,7 +356,7 @@ body::-webkit-scrollbar {
   padding-bottom: 1vw;
   text-align: left;
   color: var(--green);
-  font-size: 1.9em;
+  font-size: 3vw;
   width: auto;
   margin: 0px;
 }
@@ -353,7 +365,7 @@ body::-webkit-scrollbar {
   font-family: Commissioner;
   text-align: left;
   color: var(--grey);
-  font-size: 1vw;
+  font-size: 1.5vw;
   width: 30vw;
   height: fit-content;
   margin: 0px;
@@ -430,7 +442,7 @@ body::-webkit-scrollbar {
 
 #contact__title {
   margin-top: 10vh;
-  font-size: 4em;
+  font-size: 4vw;
 }
 
 .photo {
@@ -440,6 +452,53 @@ body::-webkit-scrollbar {
   width: 10px;
   height: 192px;
   background-color: red;
+}
+
+.page__fade {
+  -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1.5s; /* Firefox < 16 */
+  -ms-animation: fadein 1.5s; /* Internet Explorer */
+  -o-animation: fadein 1.5s; /* Opera < 12.1 */
+  animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 905px) {
@@ -497,7 +556,7 @@ body::-webkit-scrollbar {
   }
 
   .contact__logo {
-    width: 30px;
+    width: 50px;
     margin: 0px;
   }
 
@@ -532,7 +591,7 @@ body::-webkit-scrollbar {
   .single__para {
     padding-top: 2vh;
     padding-bottom: 2vh;
-    font-size: 0.8em;
+    font-size: 3vw;
     width: 80vw;
   }
 
@@ -596,6 +655,7 @@ body::-webkit-scrollbar {
   .single__title {
     padding-top: 2vh;
     text-align: center;
+    font-size: 4vw;
   }
 
   .single__imgs__novella {
