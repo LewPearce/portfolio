@@ -1,5 +1,6 @@
 {
   "name": "lew-portfolio",
+  "homepage": "https://lewpearce.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
