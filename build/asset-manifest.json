@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "https://lewpearce.com/static/css/main.49616146.css",
+    "main.js": "https://lewpearce.com/static/js/main.88c43fd6.js",
+    "static/media/strange_video.mp4": "https://lewpearce.com/static/media/strange_video.d577aecd9d46c2ffeeff.mp4",
+    "static/media/pillar_video.mp4": "https://lewpearce.com/static/media/pillar_video.0acab912a68cf47f1212.mp4",
+    "static/media/balcony_video.mp4": "https://lewpearce.com/static/media/balcony_video.228d7d148fe98ea11cd6.mp4",
+    "static/media/computer_video.mp4": "https://lewpearce.com/static/media/computer_video.a204865436e3ea549e54.mp4",
+    "static/media/balcony_real-min.png": "https://lewpearce.com/static/media/balcony_real-min.037141285593c411ab50.png",
+    "static/media/everyman_real-min.png": "https://lewpearce.com/static/media/everyman_real-min.ace4aed0bd141d802aca.png",
+    "static/media/greece_real-min.png": "https://lewpearce.com/static/media/greece_real-min.d875606f3274fd250686.png",
+    "static/media/novella_poster-min.png": "https://lewpearce.com/static/media/novella_poster-min.9c4c04cd6ba4a6b17826.png",
+    "static/media/balcony_clay-min.png": "https://lewpearce.com/static/media/balcony_clay-min.3ad91fa14d7ecf04a81d.png",
+    "static/media/strange_real-min.png": "https://lewpearce.com/static/media/strange_real-min.0e6bb1a9076eab1d34aa.png",
+    "static/media/novella_banner-min.png": "https://lewpearce.com/static/media/novella_banner-min.6819b8ff79f67f51a386.png",
+    "static/media/Computer Viewport-min.png": "https://lewpearce.com/static/media/Computer Viewport-min.5c2c84d757c4e04432f0.png",
+    "static/media/Mug-Spilled.png": "https://lewpearce.com/static/media/Mug-Spilled.1cfef87f9ee2fadee79a.png",
+    "static/media/Commissioner-Regular.ttf": "https://lewpearce.com/static/media/Commissioner-Regular.97efad610f7734cbb075.ttf",
+    "static/media/Koulen-Regular.ttf": "https://lewpearce.com/static/media/Koulen-Regular.68d255d59456af7aebb7.ttf",
+    "index.html": "https://lewpearce.com/index.html",
+    "main.49616146.css.map": "https://lewpearce.com/static/css/main.49616146.css.map",
+    "main.88c43fd6.js.map": "https://lewpearce.com/static/js/main.88c43fd6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49616146.css",
+    "static/js/main.88c43fd6.js"
+  ]
+}
